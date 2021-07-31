@@ -15,6 +15,41 @@ export default {
 <style lang="scss">
 @import "~normalize.css";
 
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("./assets/fonts/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("./assets/fonts/Montserrat-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("./assets/fonts/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "PTSans";
+  font-style: normal;
+  src: url("./assets/fonts/PTSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "PTSans";
+  font-style: normal;
+  src: url("./assets/fonts/PTSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
 * {
   box-sizing: border-box;
   outline: none;
