@@ -1,30 +1,80 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view />
+  <Home />
 </template>
 
+<script>
+import Home from "@/views/Home";
+export default {
+  name: "",
+  components: {
+    Home,
+  },
+};
+</script>
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import "~normalize.css";
+
+* {
+  box-sizing: border-box;
+  outline: none;
 }
 
-#nav {
-  padding: 30px;
+html {
+  scroll-behavior: smooth;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+body {
+  overflow-x: hidden;
+  font-size: 16px;
+  //font-family: "Montserrat", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #fff;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.full {
+  width: 100vw;
+  height: 100vh;
+}
+
+.image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 1170px;
 }
 </style>
