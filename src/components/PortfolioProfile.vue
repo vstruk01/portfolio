@@ -4,7 +4,7 @@
       <img class="image" src="../assets/images/Avatar.jpg" alt="Portrait" />
     </div>
     <div class="wrapper">
-      <h5 class="profile__name">Polishchyk Valentyn</h5>
+      <h5 class="profile__name">Polishchuk Valentyn</h5>
       <span class="profile__specialization">Frontend Developer</span>
     </div>
   </div>
@@ -34,7 +34,7 @@ export default {
       display: inline-block;
       width: 30px;
       height: 1px;
-      background: #e3494f;
+      background: #b02851;
     }
   }
   &__specialization {

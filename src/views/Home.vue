@@ -1,15 +1,18 @@
 <template>
-  <main class="full main home">
-    <SiteHeader />
+  <main class="main home">
+    <HeaderSection />
+    <CasesSection />
   </main>
 </template>
 
 <script>
-import SiteHeader from "@/components/SiteHeader";
+import HeaderSection from "@/components/home/HeaderSection";
+import CasesSection from "@/components/home/CasesSection";
 export default {
   name: "Home",
   components: {
-    SiteHeader,
+    HeaderSection,
+    CasesSection,
   },
 };
 </script>

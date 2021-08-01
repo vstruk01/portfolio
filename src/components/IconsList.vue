@@ -64,7 +64,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #e3494f;
+  border: 2px solid #b02851;
   border-radius: 17px;
   cursor: pointer;
   transition: 0.2s ease-in-out;
@@ -72,12 +72,14 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100px;
   }
   svg {
     transition: 0.2s ease-in-out;
   }
   &:hover {
-    background: #e3494f;
+    background: #b02851;
     path {
       fill: #fff;
     }
