@@ -19,6 +19,7 @@ export default {
 
 <style lang="scss">
 .cases-section {
+  padding-top: 20px;
   .section-title {
     font-family: "PTSans", sans-serif;
     font-size: 40px;

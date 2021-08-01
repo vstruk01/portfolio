@@ -7,13 +7,31 @@
     <div class="content">
       <p class="case__excerpt">{{ caseObj.excerpt }}</p>
       <button class="case__more">Read more</button>
+      <div class="other-info">
+        <div class="visit">
+          <IconBase><Show /></IconBase>
+          <a :href="caseObj.siteUrl" class="case__url">visit site</a>
+        </div>
+        <div class="deadline">
+          <IconBase><Clock /></IconBase>
+          <span class="case__time">{{ caseObj.time }}</span>
+        </div>
+      </div>
     </div>
   </li>
 </template>
 
 <script>
+import IconBase from "@/components/icons/IconBase";
+import Show from "@/components/icons/Show";
+import Clock from "@/components/icons/Clock";
 export default {
   name: "CaseIteam",
+  components: {
+    IconBase,
+    Show,
+    Clock,
+  },
   props: {
     caseObj: Object,
   },
@@ -99,6 +117,40 @@ export default {
         transform: translateX(6px);
       }
     }
+  }
+  .other-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    .visit,
+    .deadline {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .visit {
+      svg {
+        transition: 0.25s;
+      }
+      &:hover {
+        svg {
+          transform: scaleY(0);
+        }
+      }
+    }
+  }
+  &__url,
+  &__time {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.045em;
+    margin-left: 5px;
+  }
+  &__url {
+    color: #000;
+    text-decoration: underline;
   }
 }
 </style>

@@ -73,7 +73,7 @@ export default {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: 42px;
   }
   svg {
     transition: 0.2s ease-in-out;
