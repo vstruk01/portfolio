@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "Book Store",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "siteUrl": "https://google.com",
+    "time": "3 month",
+    "preview": "book-store.webp"
+  },
+  {
+    "id": 1,
+    "name": "Follow Sport",
+    "excerpt": "Etiam elit nisl, consectetur id leo ac, ultricies molestie velit.",
+    "siteUrl": "https://google.com",
+    "time": "3 weeks",
+    "preview": "follow-sport.webp"
+  },
+  {
+    "id": 3,
+    "name": "Ziko Agency",
+    "excerpt": "Nullam eu ornare ipsum. Nullam tempus eleifend lacus.",
+    "siteUrl": "https://google.com",
+    "time": "2 month",
+    "preview": "ziko.webp"
+  }
+]

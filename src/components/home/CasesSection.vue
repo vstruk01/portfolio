@@ -1,14 +1,19 @@
 <template>
-  <secion class="cases-section">
+  <section class="cases-section">
     <div class="container">
       <h3 id="cases-hook" class="section-title">A few of my recent projects</h3>
+      <CasesList />
     </div>
-  </secion>
+  </section>
 </template>
 
 <script>
+import CasesList from "@/components/home/CasesList";
 export default {
   name: "CasesSection",
+  components: {
+    CasesList,
+  },
 };
 </script>
 
@@ -20,7 +25,6 @@ export default {
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.045em;
-    margin-bottom: 100vh;
   }
 }
 </style>
