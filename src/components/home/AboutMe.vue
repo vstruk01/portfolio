@@ -63,4 +63,51 @@ export default {
     }
   }
 }
+
+@media (max-width: 991px) {
+  .about {
+    &__title {
+      font-size: 32px;
+    }
+    .skill {
+      font-size: 18px;
+      line-height: 29px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    align-items: center;
+    &__title {
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 25px;
+      line-height: 34px;
+    }
+    .skills {
+      margin-bottom: 55px;
+    }
+    .skill {
+      font-size: 16px;
+      line-height: 28px;
+      padding-left: 0;
+      text-align: center;
+      margin-bottom: 10px;
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 28px;
+        height: 1px;
+        background: #b02851;
+        top: 32px;
+        left: calc(50% - 14px);
+      }
+    }
+  }
+  .action-button {
+    display: block;
+    margin: 0 auto;
+  }
+}
 </style>

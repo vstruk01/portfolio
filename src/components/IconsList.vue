@@ -85,4 +85,9 @@ export default {
     }
   }
 }
+@media (max-width: 767px) {
+  .icons-list {
+    margin-top: 30px;
+  }
+}
 </style>

@@ -28,4 +28,13 @@ export default {
     letter-spacing: 0.045em;
   }
 }
+
+@media (max-width: 767px) {
+  .cases-section {
+    padding-top: 80px;
+    .section-title {
+      font-size: 30px;
+    }
+  }
+}
 </style>

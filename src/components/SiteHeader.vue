@@ -29,4 +29,11 @@ export default {
     align-items: center;
   }
 }
+@media (max-width: 767px) {
+  .header {
+    .container {
+      flex-direction: column;
+    }
+  }
+}
 </style>

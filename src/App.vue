@@ -112,4 +112,31 @@ button {
   margin: 0 auto;
   width: 1170px;
 }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 990px;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 570px;
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    width: 100%;
+  }
+}
 </style>
