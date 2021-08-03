@@ -51,5 +51,24 @@ export default {
     font-family: "Montserrat", sans-serif;
     opacity: 0.8;
   }
+  .icons-item {
+    margin: 0 13px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    .content-wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__title {
+      order: 1;
+      text-align: center;
+    }
+    .icons-list {
+      order: 2;
+    }
+  }
 }
 </style>
