@@ -28,6 +28,15 @@ export default {
 </script>
 
 <style lang="scss">
+@media (min-width: 1199px) {
+  .cases-tag {
+    &:hover {
+      background: #b02851;
+      color: #fff;
+    }
+  }
+}
+
 .cases-tag {
   border: 2px solid #b02851;
   padding: 5px 10px;
@@ -43,15 +52,6 @@ export default {
     background: #b02851;
     transform: translateY(4px);
     color: #fff;
-  }
-}
-
-@media not screen {
-  .cases-tag {
-    &:hover {
-      background: #b02851;
-      color: #fff;
-    }
   }
 }
 </style>

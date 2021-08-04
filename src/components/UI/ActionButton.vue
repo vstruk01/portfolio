@@ -25,6 +25,15 @@ export default {
 </script>
 
 <style lang="scss">
+@media (min-width: 1199px) {
+  .action-button {
+    &:hover {
+      background: #b02851;
+      color: #fff !important;
+    }
+  }
+}
+
 .action-button {
   font-family: "PTSans", sans-serif;
   font-weight: 400;
@@ -34,9 +43,5 @@ export default {
   transition: 0.2s;
   border-radius: 18px;
   cursor: pointer;
-  &:hover {
-    background: #b02851;
-    color: #fff !important;
-  }
 }
 </style>

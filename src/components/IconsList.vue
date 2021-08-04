@@ -53,6 +53,16 @@ export default {
 </script>
 
 <style lang="scss">
+@media (min-width: 1199px) {
+  .icons-item {
+    &:hover {
+      background: #b02851;
+      path {
+        fill: #fff;
+      }
+    }
+  }
+}
 .icons-list {
   display: flex;
   align-items: center;
@@ -77,12 +87,6 @@ export default {
   }
   svg {
     transition: 0.2s ease-in-out;
-  }
-  &:hover {
-    background: #b02851;
-    path {
-      fill: #fff;
-    }
   }
 }
 @media (max-width: 767px) {
