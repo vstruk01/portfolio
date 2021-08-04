@@ -7,16 +7,26 @@
   {
     "id": 1,
     "name": "wordpress",
-    "casesIds": [1]
+    "casesIds": [1, 2]
   },
   {
     "id": 2,
     "name": "tilda",
-    "casesIds": [0, 1]
+    "casesIds": []
   },
   {
     "id": 3,
     "name": "web app",
+    "casesIds": [0, 2]
+  },
+  {
+    "id": 4,
+    "name": "layout",
     "casesIds": []
+  },
+  {
+    "id": 5,
+    "name": "design",
+    "casesIds": [1, 2]
   }
 ]

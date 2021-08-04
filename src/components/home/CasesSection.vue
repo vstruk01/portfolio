@@ -2,6 +2,7 @@
   <section class="cases-section">
     <div class="container">
       <h3 id="cases-hook" class="section-title">A few of my recent projects</h3>
+      <FilterTags />
       <CasesList />
     </div>
   </section>
@@ -9,10 +10,12 @@
 
 <script>
 import CasesList from "@/components/home/CasesList";
+import FilterTags from "@/components/home/FilterTags";
 export default {
   name: "CasesSection",
   components: {
     CasesList,
+    FilterTags,
   },
 };
 </script>
@@ -27,11 +30,14 @@ export default {
     text-align: center;
     letter-spacing: 0.045em;
   }
+  .filter-tags {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 767px) {
   .cases-section {
-    padding-top: 80px;
+    padding-top: 70px;
     .section-title {
       font-size: 30px;
     }

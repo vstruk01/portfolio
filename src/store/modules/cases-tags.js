@@ -5,7 +5,9 @@ let tagsStore = {
   state: {
     casesTags,
   },
-  getters: {},
+  getters: {
+    casesTags: ({ casesTags }) => casesTags,
+  },
   mutations: {},
   actions: {},
 };

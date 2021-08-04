@@ -13,7 +13,7 @@ export default {
     CaseItem,
   },
   computed: {
-    ...mapGetters("casesStore", ["cases"]),
+    ...mapGetters(["cases"]),
   },
 };
 </script>
@@ -24,6 +24,7 @@ export default {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  min-height: 450px;
   .case:not(:nth-child(3n)) {
     margin-right: 30px;
   }

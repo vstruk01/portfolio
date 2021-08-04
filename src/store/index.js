@@ -1,6 +1,6 @@
 import { createStore } from "vuex";
 import casesStore from "./modules/cases";
-import casesTags from "./modules/cases-tags";
+import tagsStore from "./modules/cases-tags";
 
 export default createStore({
   state: {},
@@ -8,6 +8,6 @@ export default createStore({
   actions: {},
   modules: {
     casesStore,
-    casesTags,
+    tagsStore,
   },
 });
