@@ -38,14 +38,20 @@ export default {
   transition: 0.2s ease-in-out;
   cursor: pointer;
   user-select: none;
-  &:hover {
-    background: #b02851;
-    color: #fff;
-  }
+
   &.active {
     background: #b02851;
     transform: translateY(4px);
     color: #fff;
+  }
+}
+
+@media not screen {
+  .cases-tag {
+    &:hover {
+      background: #b02851;
+      color: #fff;
+    }
   }
 }
 </style>
