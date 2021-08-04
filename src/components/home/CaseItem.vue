@@ -3,6 +3,15 @@
     <div class="case__img">
       <img :src="imageSrc(caseObj.preview)" alt="case Image" class="image" />
       <h3 class="case__title">{{ caseObj.name }}</h3>
+      <ul class="case-tags">
+        <li
+          class="case__tag"
+          v-for="tegObj in cardTags(caseObj.tags)"
+          :key="tegObj.id"
+        >
+          {{ tegObj.name }}
+        </li>
+      </ul>
     </div>
     <div class="content">
       <p class="case__excerpt">{{ caseObj.excerpt }}</p>
@@ -25,6 +34,7 @@
 import IconBase from "@/components/icons/IconBase";
 import Show from "@/components/icons/Show";
 import Clock from "@/components/icons/Clock";
+import { mapGetters } from "vuex";
 export default {
   name: "CaseIteam",
   components: {
@@ -34,6 +44,9 @@ export default {
   },
   props: {
     caseObj: Object,
+  },
+  computed: {
+    ...mapGetters("tagsStore", ["cardTags"]),
   },
   methods: {
     imageSrc(preview) {
@@ -51,6 +64,7 @@ export default {
   border-radius: 22px;
   overflow: hidden;
   transition: 0.25s ease-in-out;
+  user-select: none;
   &:hover {
     transform: translateY(4px);
     box-shadow: none;
@@ -84,6 +98,25 @@ export default {
     color: #ffffff;
     text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
     z-index: 1;
+  }
+  .case-tags {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  &__tag {
+    padding: 4px 7px;
+    background: #fff;
+    margin: 5px;
+    border-radius: 9px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba($color: #000000, $alpha: 0.2);
   }
   .content {
     padding: 15px;
@@ -151,6 +184,15 @@ export default {
   &__url {
     color: #000;
     text-decoration: underline;
+  }
+}
+
+@media (max-width: 400px) {
+  .case {
+    &__tag {
+      font-size: 12px;
+      border-radius: 7px;
+    }
   }
 }
 </style>

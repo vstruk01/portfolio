@@ -34,9 +34,10 @@ export default {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: #000;
-  border-radius: 10px;
+  border-radius: 13px;
   transition: 0.2s ease-in-out;
   cursor: pointer;
+  user-select: none;
   &:hover {
     background: #b02851;
     color: #fff;
