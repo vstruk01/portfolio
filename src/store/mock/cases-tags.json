@@ -17,12 +17,12 @@
   {
     "id": 3,
     "name": "web app",
-    "casesIds": [0, 2]
+    "casesIds": [0, 2, 4]
   },
   {
     "id": 4,
     "name": "layout",
-    "casesIds": []
+    "casesIds": [1, 3]
   },
   {
     "id": 5,

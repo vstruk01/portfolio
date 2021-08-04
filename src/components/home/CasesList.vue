@@ -22,7 +22,6 @@ export default {
 .cases-list {
   margin-top: 50px;
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
   min-height: 450px;
   .case:not(:nth-child(3n)) {

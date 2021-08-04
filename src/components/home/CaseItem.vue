@@ -19,7 +19,9 @@
       <div class="other-info">
         <div class="visit">
           <IconBase><Show /></IconBase>
-          <a :href="caseObj.siteUrl" class="case__url">visit site</a>
+          <a :href="caseObj.siteUrl" class="case__url" target="_blank"
+            >visit site</a
+          >
         </div>
         <div class="deadline">
           <IconBase><Clock /></IconBase>
@@ -65,6 +67,7 @@ export default {
   overflow: hidden;
   transition: 0.25s ease-in-out;
   user-select: none;
+  position: relative;
   &:hover {
     transform: translateY(4px);
     box-shadow: none;
@@ -119,7 +122,7 @@ export default {
     box-shadow: 0 4px 6px rgba($color: #000000, $alpha: 0.2);
   }
   .content {
-    padding: 15px;
+    padding: 15px 15px 60px 15px;
   }
   &__excerpt {
     font-family: "Montserrat", sans-serif;
@@ -130,7 +133,7 @@ export default {
   }
   &__more {
     padding: 0;
-    margin: 15px 0;
+    margin-top: 15px;
     position: relative;
     background: transparent;
     font-family: "PTSans", sans-serif;
@@ -155,7 +158,11 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
     .visit,
     .deadline {
       display: flex;
