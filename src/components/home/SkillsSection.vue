@@ -189,17 +189,17 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 14px;
 
     &__name {
       font-family: "PTSans", sans-serif;
-      font-size: 18px;
+      font-size: 17px;
       font-weight: 700;
       line-height: 18px;
       border: 1px solid #b02851;
-      padding: 13px;
+      padding: 10px;
       letter-spacing: 2px;
-      border-radius: 15px;
+      border-radius: 12px;
     }
     .skill-range {
       width: 45%;
@@ -219,6 +219,175 @@ export default {
         border-radius: 10px;
         background: #b02851;
       }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .skills-section {
+    margin-top: 60px;
+  }
+  .me {
+    .me-outline {
+      width: 100%;
+      padding: 0;
+    }
+    .who-i-am {
+      margin: 120px 0;
+    }
+    &__name {
+      font-size: 38px;
+      letter-spacing: 0.6px;
+    }
+    .me-block {
+      margin-top: 40px;
+      &__text,
+      &__list {
+        padding-left: 25px;
+      }
+      .list-item {
+        margin-bottom: 6px;
+      }
+    }
+    .skills-list {
+      padding-left: 25px;
+    }
+    .skill-item {
+      margin-top: 12px;
+      &__name {
+        font-size: 16px;
+        padding: 9px;
+        letter-spacing: 1.6px;
+        border-radius: 10px;
+      }
+      .skill-range {
+        width: 48%;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .me {
+    .who-i-am {
+      margin: 80px 0;
+    }
+    &__name {
+      font-size: 32px;
+      letter-spacing: 0.6px;
+    }
+    &__specialization {
+      font-size: 14px;
+    }
+    .me-block {
+      margin-top: 30px;
+      &__text,
+      &__list {
+        padding-left: 15px;
+      }
+      &__text {
+        font-size: 14px;
+      }
+      .list-item {
+        margin-bottom: 5px;
+        font-size: 14px;
+      }
+    }
+    .skills-list {
+      padding-left: 15px;
+    }
+    .skill-item {
+      margin-top: 10px;
+      &__name {
+        font-size: 15px;
+        padding: 8px;
+        letter-spacing: 1px;
+        border-radius: 9px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .skills-section {
+    .container {
+      flex-direction: column;
+    }
+  }
+  .me {
+    .me-outline {
+      padding: 50px 70px 0;
+    }
+    .who-i-am {
+      display: none;
+    }
+    .me-block {
+      margin-top: 40px;
+      &__text,
+      &__list {
+        padding-left: 25px;
+      }
+      &__text {
+        font-size: 15px;
+      }
+      .list-item {
+        margin-bottom: 8px;
+        font-size: 15px;
+      }
+    }
+    .skills-list {
+      padding-left: 25px;
+    }
+    .skill-item {
+      margin-top: 10px;
+      &__name {
+        font-size: 16px;
+        padding: 9px;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .me {
+    .me-outline {
+      padding: 40px 20px 0;
+      margin-bottom: 50px;
+    }
+    .me-block {
+      &__text,
+      &__list {
+        padding-left: 18px;
+      }
+      &__title {
+        font-size: 20px;
+      }
+    }
+    .skills-list {
+      padding-left: 18px;
+    }
+    .skill-item {
+      .skill-range {
+        width: 52%;
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .me {
+    .me-outline {
+      padding: 40px 0 0;
+    }
+    .me-block {
+      &__text,
+      &__list {
+        padding-left: 15px;
+      }
+    }
+    .skills-list {
+      padding-left: 15px;
     }
   }
 }
