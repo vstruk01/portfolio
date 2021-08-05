@@ -5,7 +5,7 @@
     </div>
     <div class="wrapper">
       <h5 class="profile__name">Polishchuk Valentyn</h5>
-      <span class="profile__specialization">Frontend Developer</span>
+      <span class="profile__specialization">Full stack Web Developer</span>
     </div>
   </div>
 </template>
