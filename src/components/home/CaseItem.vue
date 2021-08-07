@@ -15,7 +15,9 @@
     </div>
     <div class="content">
       <p class="case__excerpt">{{ caseObj.excerpt }}</p>
-      <button class="case__more">Read more</button>
+      <button class="case__more" @click="openCase(caseObj.id)">
+        Read more
+      </button>
       <div class="other-info">
         <div class="visit">
           <IconBase><Show /></IconBase>
@@ -53,6 +55,9 @@ export default {
   methods: {
     imageSrc(preview) {
       return require(`@/assets/images/cases/${preview}`);
+    },
+    openCase(caseId) {
+      this.$router.push({ name: "case", params: { id: caseId } });
     },
   },
 };

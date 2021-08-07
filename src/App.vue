@@ -1,17 +1,15 @@
 <template>
   <SiteHeader />
-  <Home />
+  <router-view></router-view>
   <SiteFooter />
 </template>
 
 <script>
-import Home from "@/views/Home";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 export default {
   name: "",
   components: {
-    Home,
     SiteHeader,
     SiteFooter,
   },
