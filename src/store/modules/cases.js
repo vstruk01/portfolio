@@ -9,6 +9,12 @@ let casesStore = {
   },
   getters: {
     cases: ({ cases }) => cases,
+    caseSingle:
+      ({ cases }) =>
+      (id) => {
+        let caseById = cases.find((caseSingle) => caseSingle.id == id);
+        return caseById;
+      },
   },
   mutations: {
     [CHANGE_CASES](state, newCases) {

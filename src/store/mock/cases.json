@@ -3,45 +3,120 @@
     "id": 0,
     "name": "Book Store",
     "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ante neque, sagittis et posuere et, volutpat at leo. Nam efficitur eget nibh in hendrerit. Curabitur ut consectetur mi. Suspendisse tempor molestie felis, feugiat ultricies mauris semper eget. Aenean tempor magna nec ligula.",
     "siteUrl": "https://google.com",
     "time": "3 month",
     "preview": "book-store.webp",
-    "tags": [0, 3]
+    "image": "book-store-single.webp",
+    "tags": [0, 3],
+    "contributors": [
+      {
+        "id": 0,
+        "avatar": "contributor.webp",
+        "url": "https://github.com/vstruk01"
+      },
+      {
+        "id": 1,
+        "avatar": "contributor.webp",
+        "url": "https://github.com/vstruk01"
+      }
+    ]
   },
   {
     "id": 1,
     "name": "Follow Sport",
     "excerpt": "Etiam elit nisl, consectetur id leo ac, ultricies molestie velit.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in lectus enim. Praesent auctor molestie suscipit. Suspendisse mauris elit, semper ut tristique vitae, aliquet vel felis. Suspendisse eu nulla id ligula venenatis faucibus in vitae magna. Aliquam vel enim nec lectus pharetra auctor vel eget lorem.",
     "siteUrl": "http://followsport.com.ua",
     "time": "3 weeks",
     "preview": "follow-sport.webp",
-    "tags": [0, 1, 4, 5]
+    "image": "fs-single.webp",
+    "tags": [0, 1, 4, 5],
+    "contributors": [
+      {
+        "id": 0,
+        "avatar": "contributor.webp",
+        "url": "https://github.com/vstruk01"
+      }
+    ]
   },
   {
     "id": 2,
     "name": "Ziko Agency",
     "excerpt": "Nullam eu ornare ipsum. Nullam tempus eleifend lacus.",
+    "description": "Proin viverra, velit accumsan rhoncus tincidunt, purus ligula feugiat risus, eget viverra justo lorem eleifend quam. Maecenas interdum quam mi. Donec sed diam volutpat, ornare orci non, cursus risus. Morbi vehicula neque congue sem vehicula posuere. Nulla condimentum suscipit lacus id viverra.",
     "siteUrl": "http://spartaagency.biz",
     "time": "2 month",
     "preview": "ziko.webp",
-    "tags": [1, 3, 5]
+    "image": "ziko-single.webp",
+    "tags": [1, 3, 5],
+    "contributors": [
+      {
+        "id": 0,
+        "avatar": "contributor.webp",
+        "url": "https://github.com/vstruk01"
+      }
+    ]
   },
   {
     "id": 3,
     "name": "Lucid Theme",
     "excerpt": "Phasellus non tincidunt nisi. Aliquam eu pharetra mi, eget viverra nibh.",
+    "description": "Vivamus at tincidunt mi. Aliquam at tellus tempus magna mattis lacinia tincidunt vel felis. Aliquam venenatis, nisl id ultrices consequat, elit felis hendrerit neque, ac facilisis velit mi at nisi. Etiam pharetra enim sed pellentesque lacinia. Fusce eu pretium ligula.",
     "siteUrl": "https://validol4ik.github.io/lucid",
     "time": "4 days",
     "preview": "lucid.webp",
-    "tags": [4]
+    "image": "lucid-single.webp",
+    "tags": [4],
+    "contributors": [
+      {
+        "id": 0,
+        "avatar": "contributor.webp",
+        "url": "https://github.com/vstruk01"
+      },
+      {
+        "id": 1,
+        "avatar": "contributor.webp",
+        "url": "https://github.com/vstruk01"
+      }
+    ]
   },
   {
     "id": 4,
     "name": "TOP 250 Movies",
     "excerpt": "Cras ultrices orci sed faucibus condimentum. Nulla a facilisis erat, quis ornare nulla. Nam lacus elit, rutrum.",
+    "description": "Nullam non gravida nisl, at gravida quam. Integer malesuada neque lorem, ac     ultrices sem iaculis a. Etiam vehicula suscipit vehicula. Suspendisse lacinia justo non sodales eleifend. Suspendisse ante turpis, posuere eget pharetra at, efficitur et nibh. Pellentesque efficitur vel dolor non vestibulum. Morbi aliquam tellus quam, eu lacinia ipsum volutpat vitae. Nullam consequat et nunc sit amet tempus.",
     "siteUrl": "https://validol4ik.github.io/250movies",
     "time": "7 days",
     "preview": "movies.webp",
-    "tags": [3]
+    "image": "movies-single.webp",
+    "tags": [3],
+    "contributors": [
+      {
+        "id": 0,
+        "avatar": "contributor.webp",
+        "url": "https://github.com/vstruk01"
+      },
+      {
+        "id": 1,
+        "avatar": "contributor.webp",
+        "url": "https://github.com/vstruk01"
+      },
+      {
+        "id": 2,
+        "avatar": "contributor.webp",
+        "url": "https://github.com/vstruk01"
+      },
+      {
+        "id": 3,
+        "avatar": "contributor.webp",
+        "url": "https://github.com/vstruk01"
+      },
+      {
+        "id": 4,
+        "avatar": "contributor.webp",
+        "url": "https://github.com/vstruk01"
+      }
+    ]
   }
 ]
