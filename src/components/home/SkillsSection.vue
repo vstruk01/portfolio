@@ -131,12 +131,12 @@ export default {
 .me {
   .me-outline {
     width: 100%;
-    padding: 65px 0 0 65px;
+    padding: 65px 0 0 90px;
     margin-bottom: 80px;
   }
   &__img {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 36px;
   }
   .who-i-am {
     margin: 140px 0;
@@ -271,6 +271,9 @@ export default {
   .me {
     .who-i-am {
       margin: 80px 0;
+    }
+    &__img {
+      border-radius: 30px;
     }
     &__name {
       font-size: 32px;

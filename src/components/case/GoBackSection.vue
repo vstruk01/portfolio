@@ -26,6 +26,6 @@ export default {
 
 <style lang="scss">
 .go-back {
-  padding: 35px 0;
+  padding: 45px 0;
 }
 </style>

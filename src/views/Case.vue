@@ -20,6 +20,6 @@ export default {
 
 <style lang="scss">
 .case-page {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 </style>
