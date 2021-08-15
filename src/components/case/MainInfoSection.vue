@@ -7,12 +7,25 @@
         </div>
         <div class="info-wrapper">
           <h1 class="case-single__title">
-            {{ caseSingle($route.params.id).name }}
+            {{ caseObj.name }}
           </h1>
           <p class="case-single__desc">
-            {{ caseSingle($route.params.id).description }}
+            {{ caseObj.description }}
           </p>
-          <Contributors :membs="caseSingle($route.params.id).contributors" />
+          <Contributors :membs="caseObj.contributors" />
+          <div class="flex-wrapper">
+            <div class="view-project">
+              <IconBase><Show /></IconBase>
+              <a href="#" target="_blank">Visit the site</a>
+            </div>
+            <div class="project-deadline">
+              <IconBase><Clock /></IconBase>
+              <span>Project deadline: {{ caseObj.time }}</span>
+            </div>
+          </div>
+          <h4 class="price">
+            The price of such a project is <span>{{ caseObj.price }}</span>
+          </h4>
         </div>
       </div>
     </div>
@@ -20,20 +33,25 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
 import Contributors from "@/components/case/Contributors";
+import IconBase from "@/components/icons/IconBase";
+import Show from "@/components/icons/Show";
+import Clock from "@/components/icons/Clock";
 
 export default {
   name: "MainInfoSection",
   components: {
     Contributors,
+    Clock,
+    Show,
+    IconBase,
+  },
+  props: {
+    caseObj: Object,
   },
   computed: {
-    ...mapGetters(["caseSingle"]),
     imageSrc() {
-      return require(`@/assets/images/cases/${
-        this.caseSingle(this.$route.params.id).image
-      }`);
+      return require(`@/assets/images/cases/${this.caseObj.image}`);
     },
   },
 };
@@ -78,5 +96,47 @@ export default {
   width: 58%;
   display: flex;
   flex-direction: column;
+  .flex-wrapper {
+    margin: 30px 0;
+    align-items: center;
+  }
+}
+.view-project {
+  display: flex;
+  align-items: center;
+  a {
+    color: #000;
+    text-decoration: underline;
+    font-size: 22px;
+  }
+  svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: 0.2s;
+  }
+  &:hover {
+    svg {
+      transform: scaleY(0);
+    }
+  }
+}
+.project-deadline {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: 0.2s;
+  }
+}
+.price {
+  font-family: "PTSans", sans-serif;
+  font-size: 22px;
+  span {
+    text-decoration: underline;
+  }
 }
 </style>
