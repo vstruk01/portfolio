@@ -16,7 +16,7 @@
           <div class="flex-wrapper">
             <div class="view-project">
               <IconBase><Show /></IconBase>
-              <a href="#" target="_blank">Visit the site</a>
+              <a :href="caseObj.siteUrl" target="_blank">Visit the site</a>
             </div>
             <div class="project-deadline">
               <IconBase><Clock /></IconBase>
@@ -97,7 +97,7 @@ export default {
   display: flex;
   flex-direction: column;
   .flex-wrapper {
-    margin: 30px 0;
+    margin-top: 30px;
     align-items: center;
   }
 }
@@ -135,6 +135,7 @@ export default {
 .price {
   font-family: "PTSans", sans-serif;
   font-size: 22px;
+  margin-top: 60px;
   span {
     text-decoration: underline;
   }
