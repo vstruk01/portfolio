@@ -48,4 +48,28 @@ export default {
     font-size: 20px;
   }
 }
+
+@media (max-width: 767px) {
+  .work {
+    &__desk {
+      width: 45%;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .work {
+    flex-direction: column;
+    margin-bottom: 90px;
+    &__img {
+      width: 95%;
+      order: 1;
+      margin-bottom: 15px;
+    }
+    &__desk {
+      width: 95%;
+      order: 2;
+    }
+  }
+}
 </style>

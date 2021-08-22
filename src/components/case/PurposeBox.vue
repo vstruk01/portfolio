@@ -25,7 +25,7 @@ export default {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 380px;
+  max-width: 380px;
   &__icon {
     width: 80px;
     height: 80px;

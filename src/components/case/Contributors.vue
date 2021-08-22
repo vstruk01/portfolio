@@ -101,4 +101,21 @@ export default {
     position: relative;
   }
 }
+
+@media (max-width: 575px) {
+  .contrib {
+    font-size: 22px;
+  }
+  .avatar {
+    width: 74px;
+    height: 74px;
+    border-radius: 28px;
+  }
+}
+
+@media (max-width: 430px) {
+  .avatars {
+    justify-content: center;
+  }
+}
 </style>

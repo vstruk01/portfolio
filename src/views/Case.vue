@@ -37,7 +37,9 @@ export default {
 </script>
 
 <style lang="scss">
-.case-page {
-  padding: 20px 0;
+@media (min-width: 576px) {
+  .case-page {
+    padding: 20px 0;
+  }
 }
 </style>

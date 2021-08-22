@@ -57,4 +57,27 @@ export default {
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 991px) {
+  .purpose {
+    margin-top: 90px;
+  }
+  .boxes {
+    flex-direction: column;
+    align-items: center;
+    .purpose-box {
+      &:first-child {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .purpose {
+    .works-title {
+      font-size: 32px;
+    }
+  }
+}
 </style>

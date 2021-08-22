@@ -2,8 +2,8 @@
   <section class="case-single">
     <div class="container">
       <div class="flex-wrapper">
-        <div class="image">
-          <img :src="imageSrc" class="case-single__img" alt="case image" />
+        <div class="case-single__img">
+          <img :src="imageSrc" class="image" alt="case image" />
         </div>
         <div class="info-wrapper">
           <h1 class="case-single__title">
@@ -60,14 +60,6 @@ export default {
 <style lang="scss" scoped>
 .case-single {
   width: 100%;
-  &__img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
   &__title {
     font-family: "PTSans", sans-serif;
     font-size: 40px;
@@ -80,17 +72,18 @@ export default {
     letter-spacing: 0.5px;
     margin-top: 30px;
   }
+  &__img {
+    width: 35%;
+    height: 520px;
+    border-radius: 36px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
 }
 .flex-wrapper {
   display: flex;
   justify-content: space-between;
-}
-.image {
-  width: 35%;
-  height: 520px;
-  border-radius: 36px;
-  position: relative;
-  overflow: hidden;
 }
 .info-wrapper {
   width: 58%;
@@ -133,11 +126,101 @@ export default {
   }
 }
 .price {
-  font-family: "PTSans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 22px;
   margin-top: 60px;
+  font-weight: 500;
   span {
     text-decoration: underline;
+  }
+}
+
+@media (max-width: 1199px) {
+  .case-single {
+    &__img {
+      width: 42%;
+      height: 500px;
+    }
+    .info-wrapper {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .case-single {
+    &__img {
+      display: none;
+    }
+    .info-wrapper {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .case-page {
+    padding: 0;
+  }
+  .case-single {
+    &__title {
+      font-size: 34px;
+      letter-spacing: 1.2px;
+    }
+  }
+  .view-project {
+    a {
+      font-size: 18px;
+    }
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .project-deadline {
+    font-size: 18px;
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .price {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 430px) {
+  .case-single {
+    // &__title,
+    // &__desc {
+    //   text-align: center;
+    // }
+    .price {
+      text-align: center;
+      line-height: 27px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .info-wrapper {
+    .flex-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+      .project-deadline {
+        margin-bottom: 18px;
+        order: 1;
+      }
+      .view-project {
+        order: 2;
+        a {
+          font-size: 22px;
+        }
+        svg {
+          width: 26px;
+          height: 26px;
+        }
+      }
+    }
   }
 }
 </style>
