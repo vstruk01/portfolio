@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     goToHome() {
-      this.$router.back();
+      this.$router.push({ name: "home" });
     },
   },
 };

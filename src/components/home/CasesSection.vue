@@ -3,19 +3,24 @@
     <div class="container">
       <h3 id="cases-hook" class="section-title">A few of my recent projects</h3>
       <FilterTags />
-      <CasesList />
+      <CasesList :cases="cases" />
     </div>
   </section>
 </template>
 
 <script>
-import CasesList from "@/components/home/CasesList";
+import CasesList from "@/components/CasesList";
 import FilterTags from "@/components/home/FilterTags";
+import { mapGetters } from "vuex";
+
 export default {
   name: "CasesSection",
   components: {
     CasesList,
     FilterTags,
+  },
+  computed: {
+    ...mapGetters(["cases"]),
   },
 };
 </script>

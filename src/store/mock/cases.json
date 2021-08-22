@@ -7,8 +7,8 @@
     "siteUrl": "https://google.com",
     "time": "3 month",
     "price": "200$",
-    "preview": "book-store.webp",
-    "image": "book-store-single.webp",
+    "preview": "book-store/book-store.webp",
+    "image": "book-store/book-store-single.webp",
     "tags": [0, 3],
     "contributors": [
       {
@@ -21,6 +21,25 @@
         "avatar": "vlad.webp",
         "url": "https://github.com/vstruk01"
       }
+    ],
+    "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit consectetur adipiscing.",
+    "solution": "Posuere et, volutpat at leo. Nam efficitur eget nibh in hendrerit. Curabitur ut consectetur mi.",
+    "worksFields": [
+      {
+        "id": 0,
+        "imgSrc": "book-store/work1.webp",
+        "description": "Aenean iaculis eros justo, quis commodo mi faucibus a. Morbi vitae est nunc. Suspendisse felis erat, venenatis nec luctus eget, tempor vel enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+      },
+      {
+        "id": 1,
+        "imgSrc": "book-store/work2.webp",
+        "description": "Nunc aliquet dolor at eleifend sollicitudin. Morbi pellentesque leo nec neque tincidunt, congue tristique nisl interdum. Sed at metus blandit, auctor sapien vel, rhoncus libero. Donec eget ex lobortis, suscipit nunc laoreet, suscipit mauris."
+      },
+      {
+        "id": 2,
+        "imgSrc": "book-store/work3.webp",
+        "description": "Sed mauris leo, congue dapibus neque id, pellentesque sodales enim. Donec luctus condimentum orci, eu dapibus elit elementum a. Nunc nunc ex, pharetra nec finibus sit amet, cursus et nisl. Integer pretium rhoncus felis, id rutrum ante. In elementum lectus ut sollicitudin ullamcorper."
+      }
     ]
   },
   {
@@ -31,14 +50,28 @@
     "siteUrl": "http://followsport.com.ua",
     "time": "3 weeks",
     "price": "250$",
-    "preview": "follow-sport.webp",
-    "image": "fs-single.webp",
+    "preview": "follow-sport/follow-sport.webp",
+    "image": "follow-sport/fs-single.webp",
     "tags": [0, 1, 4, 5],
     "contributors": [
       {
         "id": 0,
         "avatar": "valik.webp",
         "url": "https://github.com/validol4ik"
+      }
+    ],
+    "purpose": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "solution": "Cras semper mauris in mi consequat venenatis. Nullam hendrerit nisi vitae nisl auctor.",
+    "worksFields": [
+      {
+        "id": 0,
+        "imgSrc": "follow-sport/work1.webp",
+        "description": "Vivamus et nibh in ante congue vestibulum. Nam eu mollis libero, sed suscipit massa. Proin sed augue rhoncus, pulvinar elit non, pretium ante. Phasellus et velit interdum, maximus dui sed, molestie orci. Suspendisse potenti."
+      },
+      {
+        "id": 1,
+        "imgSrc": "follow-sport/work2.webp",
+        "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque bibendum, massa sagittis posuere commodo, lectus nisi facilisis erat, sit amet fermentum purus augue sit amet massa."
       }
     ]
   },
@@ -50,14 +83,33 @@
     "siteUrl": "http://spartaagency.biz",
     "time": "2 month",
     "price": "350$",
-    "preview": "ziko.webp",
-    "image": "ziko-single.webp",
+    "preview": "ziko/ziko.webp",
+    "image": "ziko/ziko-single.webp",
     "tags": [1, 3, 5],
     "contributors": [
       {
         "id": 0,
         "avatar": "valik.webp",
         "url": "https://github.com/validol4ik"
+      }
+    ],
+    "purpose": "Integer at orci condimentum nisl ultricies facilisis. Phasellus id pharetra urna.",
+    "solution": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    "worksFields": [
+      {
+        "id": 0,
+        "imgSrc": "ziko/work1.webp",
+        "description": "Mauris pulvinar cursus eros, nec dictum nulla mattis eu. Pellentesque at volutpat sem, eu ullamcorper neque. Nunc nec risus tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
+      },
+      {
+        "id": 1,
+        "imgSrc": "ziko/work2.webp",
+        "description": "Duis sed mi eros. Suspendisse rhoncus augue velit, at finibus augue molestie dictum. Nullam nec iaculis libero. Nulla tempus, dui vitae tristique accumsan, nisl lectus sollicitudin elit, eget tincidunt ante turpis sit amet magna."
+      },
+      {
+        "id": 2,
+        "imgSrc": "ziko/work3.webp",
+        "description": "Suspendisse sed eros at ante mattis blandit id in metus. Pellentesque sed metus quis augue dignissim sodales. Proin et libero odio. Quisque suscipit pharetra metus quis faucibus. Quisque et tortor sodales, aliquet ex et, dapibus nisi."
       }
     ]
   },
@@ -69,8 +121,8 @@
     "siteUrl": "https://validol4ik.github.io/lucid",
     "time": "4 days",
     "price": "80$",
-    "preview": "lucid.webp",
-    "image": "lucid-single.webp",
+    "preview": "lucid/lucid.webp",
+    "image": "lucid/lucid-single.webp",
     "tags": [4],
     "contributors": [
       {
@@ -83,6 +135,25 @@
         "avatar": "contributor.webp",
         "url": "https://github.com/vstruk01"
       }
+    ],
+    "purpose": "Mauris volutpat ut ante vel molestie. Integer euismod consequat neque nec tincidunt.",
+    "solution": "Morbi eu porttitor nunc, id pulvinar nisl. Mauris non dapibus massa. Sed vehicula neque sem, eu aliquam nibh placerat nec.",
+    "worksFields": [
+      {
+        "id": 0,
+        "imgSrc": "lucid/work1.webp",
+        "description": "Donec aliquet ornare enim. Aliquam tincidunt velit consectetur ligula viverra, in laoreet massa faucibus. Praesent finibus eros id lobortis facilisis. Nullam accumsan pharetra vulputate."
+      },
+      {
+        "id": 1,
+        "imgSrc": "lucid/work2.webp",
+        "description": "Quisque aliquam sem metus, ut tempus eros feugiat id. Nullam ut pulvinar lorem. Aliquam consequat ipsum enim, in vulputate massa tempor vel."
+      },
+      {
+        "id": 2,
+        "imgSrc": "lucid/work3.webp",
+        "description": "Maecenas quis arcu eu dui elementum molestie eu sit amet lacus. Praesent accumsan sagittis dolor in facilisis. Vivamus et auctor tortor. Curabitur interdum eu elit a bibendum. Ut laoreet purus in est mollis eleifend. Ut malesuada vestibulum ipsum, iaculis semper quam vulputate et."
+      }
     ]
   },
   {
@@ -93,8 +164,8 @@
     "siteUrl": "https://validol4ik.github.io/250movies",
     "time": "7 days",
     "price": "150$",
-    "preview": "movies.webp",
-    "image": "movies-single.webp",
+    "preview": "movies/movies.webp",
+    "image": "movies/movies-single.webp",
     "tags": [3],
     "contributors": [
       {
@@ -121,6 +192,25 @@
         "id": 4,
         "avatar": "contributor.webp",
         "url": "https://github.com/vstruk01"
+      }
+    ],
+    "purpose": "Pellentesque finibus quam leo, sit amet iaculis enim venenatis placerat.",
+    "solution": "Maecenas dolor orci, tincidunt quis dui in, ultricies tincidunt ex.",
+    "worksFields": [
+      {
+        "id": 0,
+        "imgSrc": "movies/work1.webp",
+        "description": "Nam ultrices euismod leo, ac lacinia felis convallis id. In hac habitasse platea dictumst. Integer auctor, sapien et ornare gravida, nibh quam pharetra sapien, non vestibulum orci massa id ex. Nunc in faucibus sapien, vel finibus mi."
+      },
+      {
+        "id": 1,
+        "imgSrc": "movies/work2.webp",
+        "description": "Quisque suscipit, eros vitae fermentum porta, augue turpis rhoncus orci, non rutrum nunc tellus et lorem. Suspendisse blandit malesuada erat nec tincidunt. Donec porttitor id mi sed luctus."
+      },
+      {
+        "id": 2,
+        "imgSrc": "movies/work3.webp",
+        "description": "Mauris vulputate tellus et turpis pretium, ut rutrum ipsum varius. Ut rutrum dui ex, eu malesuada felis fermentum quis. Nam lobortis libero in orci rhoncus, vitae rutrum libero finibus. Sed sed urna mauris. Donec sit amet elementum elit, et scelerisque ex."
       }
     ]
   }
