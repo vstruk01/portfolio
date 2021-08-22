@@ -1,6 +1,8 @@
 <template>
   <SiteHeader />
-  <router-view></router-view>
+  <transition name="fade">
+    <router-view></router-view>
+  </transition>
   <SiteFooter />
 </template>
 
@@ -115,6 +117,16 @@ button {
   padding: 0 15px;
   margin: 0 auto;
   width: 1170px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 1.1s 0.2s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 
 @media (min-width: 1200px) {

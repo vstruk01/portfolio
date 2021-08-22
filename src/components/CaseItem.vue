@@ -57,7 +57,6 @@ export default {
       return require(`@/assets/images/cases/${preview}`);
     },
     openCase(caseId) {
-      window.scrollTo(0, 0);
       this.$router.push({ name: "case", params: { id: caseId } });
     },
   },

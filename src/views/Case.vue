@@ -1,5 +1,5 @@
 <template>
-  <main class="main case-page">
+  <main id="case-views" class="main case-page">
     <GoBackSection />
     <MainInfoSection :caseObj="dataObj" />
     <PurposeSection

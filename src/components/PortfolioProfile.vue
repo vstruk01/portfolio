@@ -1,5 +1,5 @@
 <template>
-  <div class="profile">
+  <div class="profile" @click="$router.push({ name: 'home' })">
     <div class="img-wrapper">
       <img class="image" src="../assets/images/Avatar.jpg" alt="Portrait" />
     </div>
@@ -20,6 +20,7 @@ export default {
 .profile {
   display: flex;
   align-items: center;
+  cursor: pointer;
   &__name {
     font-family: "PTSans", sans-serif;
     font-weight: 700;

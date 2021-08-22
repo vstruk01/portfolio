@@ -13,11 +13,11 @@
         <IconBase><Email /></IconBase>
       </a>
     </li>
-    <li class="icons-item">
+    <!-- <li class="icons-item">
       <a target="_blank" href="https://twitter.com/Validol79633989/">
         <IconBase><Twitter /></IconBase>
       </a>
-    </li>
+    </li> -->
     <li class="icons-item">
       <a target="_blank" href="https://t.me/valiidol4ik">
         <IconBase><Telega /></IconBase>
@@ -35,7 +35,7 @@
 import IconBase from "@/components/icons/IconBase";
 import Telega from "@/components/icons/Telega";
 import Insta from "@/components/icons/Insta";
-import Twitter from "@/components/icons/Twitter";
+//import Twitter from "@/components/icons/Twitter";
 import Lin from "@/components/icons/Lin";
 import Email from "@/components/icons/Email";
 
@@ -45,7 +45,7 @@ export default {
     IconBase,
     Telega,
     Insta,
-    Twitter,
+    //Twitter,
     Lin,
     Email,
   },
