@@ -43,8 +43,6 @@ export default {
   &__desk {
     width: 40%;
     font-family: "PTSans", sans-serif;
-    font-weight: 400;
-    line-height: 28px;
     font-size: 20px;
   }
 }

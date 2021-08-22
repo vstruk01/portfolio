@@ -37,11 +37,8 @@ export default {
   flex-direction: column;
   justify-content: center;
   &__title {
-    font-family: "PTSans", sans-serif;
-    font-weight: 700;
     font-size: 38px;
     line-height: 49px;
-    letter-spacing: 0.045em;
     margin-bottom: 16px;
   }
   .skills {

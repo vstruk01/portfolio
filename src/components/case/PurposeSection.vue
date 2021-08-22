@@ -45,9 +45,6 @@ export default {
 .purpose {
   margin-top: 120px;
   .works-title {
-    font-family: "PTSans", sans-serif;
-    font-weight: 700;
-    letter-spacing: 2px;
     font-size: 40px;
     margin-top: 120px;
     text-align: center;

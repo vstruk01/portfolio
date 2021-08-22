@@ -142,13 +142,9 @@ export default {
     margin: 140px 0;
   }
   &__name {
-    font-family: "PTSans", sans-serif;
     font-size: 44px;
-    font-weight: 700;
-    letter-spacing: 1px;
   }
   &__specialization {
-    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 10px;
@@ -156,10 +152,8 @@ export default {
   .me-block {
     margin-top: 50px;
     &__title {
-      font-family: "PTSans", sans-serif;
       font-size: 24px;
       margin-bottom: 16px;
-      font-weight: 700;
       position: relative;
       &::before {
         content: "";

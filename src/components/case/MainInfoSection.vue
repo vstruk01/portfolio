@@ -61,15 +61,10 @@ export default {
 .case-single {
   width: 100%;
   &__title {
-    font-family: "PTSans", sans-serif;
     font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 1.5px;
   }
   &__desc {
-    font-family: "Montserrat", sans-serif;
     line-height: 24px;
-    letter-spacing: 0.5px;
     margin-top: 30px;
   }
   &__img {

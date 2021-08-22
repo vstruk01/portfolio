@@ -43,9 +43,7 @@ export default {
     margin-bottom: 50px;
   }
   &__title {
-    font-family: "PTSans", sans-serif;
     font-size: 24px;
-    font-weight: 700;
   }
   &__rules {
     font-family: "Montserrat", sans-serif;

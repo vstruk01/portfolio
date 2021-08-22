@@ -93,6 +93,25 @@ p {
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PTSans";
+  font-weight: 700;
+  letter-spacing: 0.045em;
+  line-height: 28px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 28px;
+}
+
 button {
   border: none;
   outline: none;

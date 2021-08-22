@@ -99,10 +99,7 @@ export default {
     }
   }
   &__title {
-    font-family: "PTSans", sans-serif;
-    font-weight: 700;
     font-size: 36px;
-    letter-spacing: 0.045em;
     color: #ffffff;
     text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
     z-index: 1;
@@ -130,7 +127,6 @@ export default {
     padding: 15px 15px 60px 15px;
   }
   &__excerpt {
-    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;

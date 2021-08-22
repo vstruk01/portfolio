@@ -29,11 +29,8 @@ export default {
 .cases-section {
   padding-top: 20px;
   .section-title {
-    font-family: "PTSans", sans-serif;
     font-size: 40px;
-    font-weight: 700;
     text-align: center;
-    letter-spacing: 0.045em;
   }
   .filter-tags {
     margin-top: 30px;

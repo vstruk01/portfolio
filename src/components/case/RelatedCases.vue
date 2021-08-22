@@ -44,9 +44,7 @@ export default {
   margin: 120px 0 0;
   &__title {
     margin-bottom: 30px;
-    font-family: "PTSans", sans-serif;
     font-size: 40px;
-    letter-spacing: 2px;
     text-align: center;
   }
 }

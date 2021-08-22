@@ -41,15 +41,10 @@ export default {
     }
   }
   &__title {
-    font-family: "PTSans", sans-serif;
-    font-weight: 700;
     font-size: 24px;
     margin: 15px 0;
-    letter-spacing: 0.8px;
   }
   &__text {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
     font-size: 18px;
     line-height: 26px;
   }
